@@ -71,36 +71,6 @@ Comprehensive analysis of California's EV market combining **sales data** and **
 
 🔗 **https://public.tableau.com/app/profile/akanksha.shukla2009/viz/ev_sales_project_final/EVSALESDASHBOARD**
 
-### Dashboard Previews:
-
-![Sales Trends](tableau/dashboard_screenshots/dashboard_1.png)
-
-
----
-
-
-
----
-
-## 🚀 How to Run
-
-1. Import database schema:
-```sql
-mysql -u username -p < sql/04_dimension_tables.sql
-mysql -u username -p < sql/05_fact_tables.sql
-```
-
-2. Load and clean data:
-```sql
-mysql -u username -p < sql/02_data_quality.sql
-mysql -u username -p < sql/03_data_cleaning.sql
-```
-
-3. Run analysis queries:
-```sql
-mysql -u username -p < sql/07_analysis_queries.sql
-```
-
 ---
 
 ## 📧 Contact
